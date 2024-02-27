@@ -1,0 +1,22 @@
+.amag-button {
+  padding: .43rem .86rem;
+  line-height: 1.4rem;
+  border-radius: .29rem;
+  font-size: 1rem;
+  background: #FFF;
+  border-color: var(--amag-theme-color2);
+  color: #000;
+  cursor: pointer;
+  &.amag-button-primary {
+    background: var(--amag-theme-color2);
+    color: #FFFFFF;
+  }
+  &:hover {
+    background-image: linear-gradient(rgb(0 0 0/40%) 0 0);
+  }
+
+
+}
+.amag-button+.amag-button {
+  margin-left: 5px;
+}
